@@ -1,0 +1,34 @@
+ Question 1
+ S = Structured
+ Q = Query 
+ L = Language
+
+ Question 2 
+ 1) INTEGER: This represents/refers to a whole number, such as 7, 8, 9, etc
+ 2) VARCHAR: This refers to a variable-length string, such as "Hello", "World", etc.
+
+ Question 3
+i) SUM(): This  function returns the total sum of a numeric column.
+ii) AVG(): This function returns the average value of a numeric column.
+
+
+SECTION B 
+1. UPDATE employees SET Ethnicity = 'African' WHERE Ethnicity = 'Black';
+
+2. DELETE FROM empoyees WHERE Employee_ID ('E02002', 'E02005', 'E02006', 'E02007',)
+
+3. SELECT * FROM empoyees WHERE Gender = 'Female' AND Ethnicity = 'Asian' ORDER BY Full_name DESC;
+
+4. UPDATE employees SET Job_Ttile = 'Sr.Manager' WHERE Employee_ID = 'E02008'
+
+5.  DELETE FROM employees WHERE Age>60
+
+6. SELECT UPPER(Full_name) AS EmployeeName, Department FROM Employees WHERE Department IN ('IT', 'Marketing', 'Engineering') ORDER BY EmployeeName
+
+7. SELECT Full_Name, Annual_Salary FROM Employees WHERE Annual_Salary > 7000 AND Full_Name NOT IN ('Kai Le', 'Ezra Vu', 'Jade Hu')
+
+8. SELECT CONCAT('Hello, My Name is ',Full_Name,' and I am ', Age, 'years old. I am a Director in the' , Deaprtment, 'department, my Business Unit is ', Business_Unit) AS IntroductionColumn) FROM Employees WHERE Job_Ttile = 'Director' ORDER BY Full_Name
+
+
+
+
