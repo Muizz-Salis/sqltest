@@ -27,7 +27,7 @@ SECTION B
 
 7. SELECT Full_Name, Annual_Salary FROM Employees WHERE Annual_Salary > 7000 AND Full_Name NOT IN ('Kai Le', 'Ezra Vu', 'Jade Hu')
 
-8. SELECT CONCAT('Hello, My Name is ',Full_Name,' and I am ', Age, 'years old. I am a Director in the' , Deaprtment, 'department, my Business Unit is ', Business_Unit) AS IntroductionColumn) FROM Employees WHERE Job_Ttile = 'Director' ORDER BY Full_Name
+8. SELECT CONCAT('Hello, My Name is ',Full_Name,' and I am ', Age, 'years old. I am a Director in the' , Deaprtment, 'department, my Business Unit is ', Business_Unit) AS IntroductionColumn FROM Employees WHERE Job_Ttile = 'Director' ORDER BY Full_Name
 
 
 
